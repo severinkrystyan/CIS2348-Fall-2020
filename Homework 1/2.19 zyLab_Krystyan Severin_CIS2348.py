@@ -18,5 +18,5 @@ print('{0:.2f} cup(s) lemon juice\n{1:.2f} cup(s) water'.format(lemon, water))
 print('{0:.2f} cup(s) agave nectar'.format(agave_nectar))
 # Part 3
 print('\nLemonade ingredients - yields {0:.2f} servings'.format(make_servings))
-print('{0:.2f} gallon(s) lemon juice\n{1:.2f} gallon(s) water'.format(lemon/16, water/16))
+print('{0:.2f} gallon(s) lemon juice\n{1:.2f} gallon(s) water'.format(lemon/16, water/16)) # Dividing by 16 converts from cups to gallons
 print('{0:.2f} gallon(s) agave nectar'.format(agave_nectar/16))
