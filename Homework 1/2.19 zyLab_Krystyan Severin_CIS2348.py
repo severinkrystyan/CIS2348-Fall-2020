@@ -11,12 +11,13 @@ print('{0:.2f} cup(s) agave nectar'.format(agave_nectar))
 # Part 2
 make_servings = float(input('\nHow many servings would you like to make?\n'))
 print('\nLemonade ingredients - yields {0:.2f} servings'.format(make_servings))
-lemon = make_servings * (2/6)   # Finds how much one cup would be
-water = make_servings * (16/6)
-agave_nectar = make_servings * (2.5/6)
-print('{0:.2f} cup(s) lemon juice\n{1:.2f} cup(s) water'.format(lemon, water))
-print('{0:.2f} cup(s) agave nectar'.format(agave_nectar))
+lemon_2 = make_servings * (lemon/servings)   # Finds how much one cup would be
+water_2 = make_servings * (water/servings)
+agave_nectar_2 = make_servings * (agave_nectar/servings)
+print('{0:.2f} cup(s) lemon juice\n{1:.2f} cup(s) water'.format(lemon_2, water_2))
+print('{0:.2f} cup(s) agave nectar'.format(agave_nectar_2))
 # Part 3
 print('\nLemonade ingredients - yields {0:.2f} servings'.format(make_servings))
-print('{0:.2f} gallon(s) lemon juice\n{1:.2f} gallon(s) water'.format(lemon/16, water/16)) # Dividing by 16 converts from cups to gallons
-print('{0:.2f} gallon(s) agave nectar'.format(agave_nectar/16))
+# Dividing by 16 converts from cups to gallons
+print('{0:.2f} gallon(s) lemon juice\n{1:.2f} gallon(s) water'.format(lemon_2/16, water_2/16))
+print('{0:.2f} gallon(s) agave nectar'.format(agave_nectar_2/16))
