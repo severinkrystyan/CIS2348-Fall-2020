@@ -24,10 +24,8 @@ with open("inputDates.txt", "r") as f:
                 if month:  # Makes sure the month variable is not empty
                     parsed_date.append((month + "/" + day + "/" + year))
         elif date == "-1":  # Stops iterations if -1 is reached in file
-            f.close()
             break
 
 with open("parsedDates.txt", "w") as f:
     for parse in parsed_date:
         f.write(parse+"\n")  # Outputs formatted dates to text file with newlines after each
-    f.close()
