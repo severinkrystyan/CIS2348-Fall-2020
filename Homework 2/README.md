@@ -14,7 +14,6 @@ The zylabs also focused on string manipulation with the introduction of loops, f
 
 ## Technologies
 * Python 3.7
-* Pycharm
 
 ## Contents
 List of zylabs
