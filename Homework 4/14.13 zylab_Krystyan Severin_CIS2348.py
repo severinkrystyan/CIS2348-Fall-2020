@@ -3,7 +3,7 @@
 # Global variable
 num_calls = 0
 
-
+# Partition algorithm
 def partition(user, i, k):
     mid = i + (k - i) // 2
     pivot = user[mid]
@@ -25,7 +25,7 @@ def partition(user, i, k):
             high -= 1
     return high
 
-
+# Quicksort algorithm
 def quicksort(users, i, k):
     global num_calls
     num_calls += 1
