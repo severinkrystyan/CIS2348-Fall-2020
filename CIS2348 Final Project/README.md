@@ -18,10 +18,10 @@ A separate file called FinalProjectResources was implemented to store reused fun
 ## Technologies
 * Python 3.7
 
-##Setup
+## Setup
 Ensure that FinalProjectResources is placed in such a way within the environment that it can easily be accessed by the two files that import it as a module.
 
-##Contents
+## Contents
 * FinalProjectInventoryReports
 
     Outputs various csv files
